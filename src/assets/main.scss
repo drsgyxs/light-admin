@@ -1,0 +1,60 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.aside {
+  width: auto !important;
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+.aside .title {
+  display: flex;
+  border-right: solid 1px var(--el-menu-border-color);
+  width: inherit;
+  min-height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aside .title .title-text {
+  height: 60px;
+  line-height: 60px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.aside .title .logo {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aside .el-menu--vertical {
+  height: calc(100vh - 60px);
+  // border: 0;
+}
+
+.topfix {
+  height: 60px;
+  .collapse-btn {
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+  }
+}

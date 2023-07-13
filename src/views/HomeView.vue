@@ -1,9 +1,6 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <ElButton>我是 ElButton</ElButton>
+  <ElPagination :total="100" />
 </template>

@@ -2,6 +2,7 @@
   <el-row class="topfix">
     <el-col :lg="1">
       <div class="collapse-btn" @click="triggerCollapse">
+        <!-- <el-button text size="large" :icon="isCollapse ? Expand : Fold"></el-button> -->
         <el-icon :size="20" v-show="isCollapse"><Expand /></el-icon>
         <el-icon :size="20" v-show="!isCollapse"><Fold /></el-icon>
       </div>
@@ -26,9 +27,3 @@ const triggerCollapse = () => {
   isCollapse.value = !isCollapse.value
 }
 </script>
-<style lang="scss">
-.breadcrumb {
-  height: 60px;
-  line-height: 60px;
-}
-</style>

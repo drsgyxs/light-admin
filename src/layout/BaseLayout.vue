@@ -5,7 +5,6 @@
       <el-header>
         <BaseHeader />
       </el-header>
-
       <el-main>
         <RouterView />
       </el-main>
@@ -16,8 +15,3 @@
 import BaseHeader from './BaseHeader.vue'
 import BaseSidebar from './BaseSidebar.vue'
 </script>
-<style scoped lang="scss">
-.flex {
-  display: flex;
-}
-</style>

@@ -62,14 +62,7 @@
 </template>
 
 <script lang="ts" setup>
-import {
-  Location,
-  Document,
-  Menu as IconMenu,
-  Setting,
-  Promotion,
-  ElementPlus
-} from '@element-plus/icons-vue'
+import { Location, Document, Menu as IconMenu, Setting, ElementPlus } from '@element-plus/icons-vue'
 import { isCollapse } from './state'
 
 const handleOpen = (key: string, keyPath: string[]) => {
